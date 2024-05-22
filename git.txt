@@ -1,0 +1,42 @@
+shift insert: 붙여넣기
+
+git -v
+git config --global user.name /*gurwls980*/
+git config --global user.email /*dingdong0907@naver.com*/
+
+보기 -> 숨김폴더
+
+git init: 깃 저장소로 등록
+git status: 깃 상태
+
+*git add .
+*git commit -m"/*저장할 내용*/": 작업 저장
+
+git log: 기록보기
+
+git checkout /*commit id 6글자*/: 작업했던 시점으로 불러옴
+
+git remote add origin http:~~~
+git push -u origin main
+*git push
+
+git clone /*깃에있는 클론 주소*/: 복사
+
+git fetch: 이전에 작업했던 내용과 비교
+git pull: 만약 다를시 저장되있는거 불러오기
+
+//////////////////////////////////////////////////////////////////////////
+
+sourcetree 다운
+
+//////////////////////////////////////////////////////////////////////////
+
+1. GitStudy2 폴더 만들기
+2. GitStudy2 폴더를 git 저장소로 등록 >> git init
+3. 텍스트파일 생성
+4. add> commit
+5. GitHub Repository>> git_study2
+6. GitStudy2폴더의 git 저장소와 git_study2 origin 리모트 저장소 연결
+7. main 브랜치 최초 push
+8. 새 텍스트파일 하나 더 추가
+9. add > commit > push
